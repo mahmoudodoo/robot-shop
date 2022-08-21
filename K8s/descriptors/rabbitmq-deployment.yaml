@@ -13,6 +13,9 @@ spec:
   selector:
     matchLabels:
       app: rabbitmq
+  selector:
+    matchLabels:
+      app: rabbitmq
   strategy: {}
   template:
     metadata:
